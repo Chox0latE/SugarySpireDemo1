@@ -2,6 +2,7 @@ function state_player_mach1()
 {
 	switch (character)
 	{
+		case "C":
 		case "P":
 			dir = xscale;
 			move = key_left + key_right;

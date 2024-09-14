@@ -358,7 +358,7 @@
   ],
   "parent": {
     "name": "Old?",
-    "path": "folders/Rooms/Levels/Mt. Fudgetop/Old?.yy",
+    "path": "folders/Rooms/Levels/Floor 2/Mt. Fudgetop/Old?.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

@@ -14,7 +14,7 @@ function state_player_mach2()
 		vsp /= 20;
 		jumpstop = 1;
 	}
-	if (character == "P")
+	if (character == "P" || character == "C")
 	{
 		if (grounded && vsp > 0)
 			jumpstop = 0;

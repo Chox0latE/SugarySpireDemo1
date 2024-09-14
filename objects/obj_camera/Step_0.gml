@@ -209,7 +209,7 @@ switch (room)
 	case hub_w2:
 		window_set_caption("The alienated floor of the Sugary Spire");
 		break;
-	case entryway_1:
+	case entryway_1_classic:
 		window_set_caption("Construction underway at the Sugary Spire");
 		break;
 	case steamy_1:

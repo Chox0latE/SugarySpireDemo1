@@ -33,6 +33,7 @@ draw_text(_cx + combo_x, combo_y, _ct);
 draw_sprite_ext(tvbg, current_bg, 819, 83 + DrawY + bobbing, 1, 1, 0, c_white, 1);
 if (sprite_index != spr_tvturnon)
 	draw_sprite_ext(draw_static ? spr_tvpropellerstatic : spr_tvpropeller, propindex, 832, 74 + DrawY + bobbing, 1, 1, 0, c_white, 1);
+	draw_sprite_ext(draw_static ? spr_tvframe : spr_tvframe, propindex, 832, 74 + DrawY + bobbing, 1, 1, 0, c_white, 1);
 scr_palette_as_player();
 draw_sprite_ext(sprite_index, image_index, 832, 74 + DrawY + bobbing, 1, 1, 0, c_white, 1);
 pal_swap_reset();

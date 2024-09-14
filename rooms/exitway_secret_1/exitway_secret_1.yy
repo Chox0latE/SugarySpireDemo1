@@ -217,7 +217,7 @@
   ],
   "parent": {
     "name": "Exitway",
-    "path": "folders/Rooms/Levels/Exitway.yy",
+    "path": "folders/Rooms/Levels/Floor BOnus/Exitway.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

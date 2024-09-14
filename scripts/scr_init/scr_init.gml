@@ -58,6 +58,7 @@ global.smallfont = font_add_sprite_ext(spr_smallfont, "ABCDEFGHIJKLMNOPQRSTUVWXY
 global.creditsfont = font_add_sprite_ext(spr_creditsfont, " ABCDEFGHIJKLMNOPQRSTUVWXYZ.!,abcdefghijklmnopqrstuvwxyz0123456789@#$%^&*(){}[]|:;'/`", 1, 0);
 global.combofont = font_add_sprite_ext(spr_fontcombo, "0123456789", 1, 0);
 global.collectfont = font_add_sprite_ext(spr_fontcollect, "0123456789", 1, 0);
+global.collectoldfont = font_add_sprite_ext(spr_fontcollectold, "0123456789", 1, 0);
 global.candlefont = font_add_sprite_ext(spr_fontcandle, "0123456789", 1, 0);
 global.rankcombofont = font_add_sprite_ext(spr_fontrankcombo, "0123456789", 1, 0);
 global.bubblefont = font_add_sprite_ext(spr_bubblefont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789", 1, 0);

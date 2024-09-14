@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"43b9ad79-0246-4501-9ee1-a7a2db4b4eb0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"16f0db3e-c225-44e9-b598-9f136c617542",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1656,
+  "height": 2080,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f5cbea14-67e5-4782-9704-53534e671aae","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"53f7feb3-4131-419c-adf6-972aa7696c1c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"43b9ad79-0246-4501-9ee1-a7a2db4b4eb0","path":"sprites/ts_mines1_sprite/ts_mines1_sprite.yy",},},},"Disabled":false,"id":"e80ae779-9706-4425-8ca9-506b0097b5d5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"16f0db3e-c225-44e9-b598-9f136c617542","path":"sprites/ts_mines1_sprite/ts_mines1_sprite.yy",},},},"Disabled":false,"id":"1f036a09-0bc7-4e7f-b084-65ed2fe09de3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1620,
+  "width": 1024,
 }

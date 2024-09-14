@@ -34,7 +34,7 @@ function state_player_handstandjump()
 		mach2 = 0;
 		xscale *= -1;
 	}
-	if (floor(image_index) == (image_number - 1))
+	if (floor(image_index) == (image_number - 1))if (floor(image_index) == (image_number - 1))
 	{
 		state = 1;
 		grav = 0.5;
@@ -55,13 +55,15 @@ function state_player_handstandjump()
 		}
 	}
 	if (key_jump && grounded)
-	{
-		sprite_index = spr_mach2jump;
-		instance_create(x, y, obj_jumpdust);
-		state = 69;
-		jumpstop = 0;
-		vsp = -11;
-	}
+    {
+        image_speed = 0.1
+        image_index = 0
+        sprite_index = spr_player_longjump
+        instance_create(x, y, obj_jumpdust)
+        state = (69 << 0)
+        jumpstop = 0
+        vsp = -11
+    }
 	if (scr_solid(x + xscale, y, true) && !place_meeting(x + xscale, y, obj_destructibles))
 	{
 		var _ledge = 0;

@@ -17,9 +17,11 @@ if (DrawHUD)
 		if (global.collect > global.srank)
 			draw_sprite_ext(spr_sranktopping, obj_stylebar.image_index, 128 + shakeX, 96 + shakeY + DrawY, 1, 1, 0, c_white, 1);
 		shader_reset();
+		pal_swap_set(spr_palcandle, collectpal, 0);
 		draw_set_font(global.collectfont);
 		draw_set_halign(1);
 		draw_set_color(c_white);
+		shader_reset();
 		var _string = string(global.collect);
 		var _string_length = string_length(_string);
 		for (var i = 0; i < _string_length; i++)

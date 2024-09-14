@@ -43,7 +43,8 @@ add_music(hub_w1, mu_hubw1, mu_painter, true);
 add_music(hub_w2, mu_hubw2, mu_painter, true);
 add_music(rm_credits, mu_credits, mu_painter, false);
 add_music(tutorial_1, mu_tutorial, mu_painter, false);
-add_music(entryway_1, mu_waffle, mu_wafflesecret, false);
+add_music(entryway_1_classic, mu_waffle, mu_wafflesecret, false);
+add_music(entryway_1_custom, mu_waffle, mu_wafflesecret, false);
 add_music(steamy_1, mu_steamy, mu_steamysecret, false);
 add_music(steamy_7, mu_steamy, mu_steamysecret, true);
 add_music(steamy_8, mu_steamyinner, mu_steamysecret, true);
@@ -60,7 +61,6 @@ add_music(mines_1, mu_mineshaft1, mu_minessecret, false, function()
 		return 39;
 });
 add_music(mines_6, mu_mineshaft2, mu_minessecret, false);
-add_music(mineshaft_1, mu_mineshaft1, mu_minessecret, false);
 add_music(mountain_intro, mu_mountain1, mu_mountainsecret, false);
 add_music(mountain_5, mu_mountain1, mu_mountainsecret, true);
 add_music(mountain_6, mu_mountain2, mu_mountainsecret, true);

@@ -364,8 +364,8 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_still1","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"bg_mines1","path":"sprites/bg_mines1/bg_mines1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "mines_",
-    "path": "folders/Rooms/Levels/Mines/mines_.yy",
+    "name": "Mines",
+    "path": "folders/Rooms/Levels/Floor 1/Mines.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

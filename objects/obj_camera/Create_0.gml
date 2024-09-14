@@ -43,6 +43,7 @@ global.maxwave = 0;
 global.wave = 0;
 pizzaindex = 0;
 heatpal = 0;
+collectpal = random_range(0, 7);
 frozen = false;
 freezetype = 0;
 freezeval = 0;

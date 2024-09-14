@@ -1,4 +1,4 @@
-targetRoom = entryway_1;
+targetRoom = entryway_1_classic;
 targetDoor = "A";
 level = "entryway";
 details = [gate_createlayer(spr_entry_startgate, 0), gate_createlayer(spr_entry_startgate, 1), gate_createlayer(spr_entry_startgate, 2, 0.5), gate_createlayer(spr_entry_startgate, 3, 0.35), gate_createlayer(spr_entry_startgate, 4, 0.15), gate_createlayer(spr_entry_startgate, 5, 0)];

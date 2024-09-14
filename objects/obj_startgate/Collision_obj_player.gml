@@ -17,6 +17,7 @@ if (sprite_index != spr_exitgateclosed)
 			state = 61;
 			targetDoor = other.targetDoor;
 			targetRoom = other.targetRoom;
+		}
 			ds_queue_clear(global.newhudmessage);
 			audio_stop_all();
 		}
@@ -35,4 +36,3 @@ if (sprite_index != spr_exitgateclosed)
 			}
 		}
 	}
-}
